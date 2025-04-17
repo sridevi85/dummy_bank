@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Bank</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #004080; color: white; padding: 10px 20px; text-align: center; }
+        nav { display: flex; justify-content: space-between; align-items: center; background: #f2f2f2; padding: 10px 20px; }
+        nav .left-menu, nav .right-menu { display: flex; align-items: center; gap: 15px; }
+        nav a { text-decoration: none; color: black; font-weight: bold; }
+        nav a:hover { color: #004080; }
+        .search-bar { display: flex; align-items: center; gap: 10px; }
+        .search-bar input { padding: 5px; border: 1px solid #ddd; border-radius: 4px; }
+        .search-bar button { padding: 5px 10px; background: #004080; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        .banner { display: flex; justify-content: space-between; align-items: center; background: orange; color: white; padding: 20px; }
+        .banner .content { max-width: 50%; }
+        .banner .content h1 { margin: 0; font-size: 2rem; }
+        .banner .content p { font-size: 1.2rem; }
+        .banner .content .btn { background: #004080; color: white; padding: 10px 20px; border: none; border-radius: 4px; text-decoration: none; }
+        .features { display: flex; justify-content: space-between; padding: 20px; background: white; }
+        .features .feature { text-align: center; }
+        .features .feature img { width: 50px; height: 50px; margin-bottom: 10px; }
+        .offers { display: flex; justify-content: space-between; padding: 20px; background: #f9f9f9; }
+        .offer-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); width: 30%; text-align: center; }
+        .offer-card h3 { margin-top: 0; }
+        .cookie-banner { position: fixed; bottom: 0; width: 100%; background: #004080; color: white; padding: 10px; text-align: center; }
+        .cookie-banner button { background: orange; border: none; padding: 5px 10px; color: white; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dummy Bank</h1>
+        <p>Your trusted partner in financial services</p>
+    </header>
+    <nav>
+        <div class="left-menu">
+            <a href="#">Personal</a>
+            <a href="#">NRI</a>
+            <a href="#">Business</a>
+            <a href="#">Corporate</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for Products, Services..">
+            <button>Search</button>
+        </div>
+        <div class="right-menu">
+            <a href="#">Customer Services</a>
+            <a href="#">Complaints</a>
+            <a href="#">Login</a>
+            <a href="tel:18001080">1800 1080</a>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="content">
+            <h1>Experience the pride of owning your dream home</h1>
+            <p>Turn your dream into reality with Dummy Bank Home Loan</p>
+            <a href="#" class="btn">Apply Now</a>
+        </div>
+        <div class="image">
+            <img src="https://via.placeholder.com/300x200" alt="Home Loan">
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Feature">
+            <p>Instant provisional sanction</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Feature">
+            <p>Minimal documentation</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/50" alt="Feature">
+            <p>Nil foreclosure charges</p>
+        </div>
+    </div>
+    <div class="offers">
+        <div class="offer-card">
+            <h3>Credit Card</h3>
+            <p>Get the right card for you.</p>
+        </div>
+        <div class="offer-card">
+            <h3>Personal Loan</h3>
+            <p>For all your needs, up to ₹50 lakh</p>
+        </div>
+        <div class="offer-card">
+            <h3>Grow Your Investment</h3>
+            <p>Explore our investment options</p>
+        </div>
+    </div>
+    <div class="cookie-banner">
+        <p>We use cookies to improve and personalize your browsing experience. By continuing to browse this website, you accept the use of cookies.</p>
+        <button>OK</button>
+        <button>Manage</button>
+    </div>
+</body>
+</html>
